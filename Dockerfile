@@ -1,4 +1,4 @@
-FROM bellsoft/liberica-openjdk-alpine:11
+FROM bellsoft/liberica-openjdk-alpine:17
 ARG TOKEN_ARG
 ENV TOKEN=$TOKEN_ARG
 
