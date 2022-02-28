@@ -15,7 +15,7 @@ public class PingListenerImp implements PingListener
         }
         else if(messageCreateEvent.getMessageContent().equals(".ding"))
         {
-            messageCreateEvent.getChannel().sendMessage("This is blong!");
+            messageCreateEvent.getChannel().sendMessage("This is bajong!");
         }
     }
 }
