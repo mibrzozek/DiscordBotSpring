@@ -3,7 +3,7 @@ ARG TOKEN_ARG
 ENV TOKEN=$TOKEN_ARG
 
 ARG JAR_FILE=TARGET/*.jar
-COPY ${JAR_FILE} app.jar
+copy ${jar_file} app.jar
 
 EXPOSE 8080
 
