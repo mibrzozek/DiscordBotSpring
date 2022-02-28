@@ -55,7 +55,7 @@
   "compatibilities": [
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:eu-west-1:206890211931:task-definition/discordbot:2",
+  "taskDefinitionArn": " arn:aws:ecs:us-east-1:113595334916:task-definition/discordbot:2",
   "family": "discordbot",
   "requiresAttributes": [
     {
