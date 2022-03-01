@@ -53,6 +53,6 @@ jobs:
         uses: aws-actions/amazon-ecs-deploy-task-definition@v1
         with:
           task-definition: ${{ steps.task-def.outputs.task-definition }}
-          service: discord-bot-service
+          service: discord-bot
           cluster: arn:aws:ecs:us-east-1:113595334916:cluster/discord-bot
           wait-for-service-stability: true
