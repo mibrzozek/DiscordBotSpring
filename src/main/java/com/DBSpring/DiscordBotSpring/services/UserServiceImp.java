@@ -3,6 +3,7 @@ package com.DBSpring.DiscordBotSpring.services;
 import com.DBSpring.DiscordBotSpring.entities.User;
 import com.DBSpring.DiscordBotSpring.exceptions.UserExistsException;
 import com.DBSpring.DiscordBotSpring.repository.UserRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
