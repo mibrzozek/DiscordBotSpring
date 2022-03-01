@@ -57,9 +57,6 @@
   ],
   "family": "discordbot",
   "pidMode": null,
-  "requiresCompatibilities": [
-    "EC2"
-  ],
   "networkMode": "bridge",
   "cpu": null,
   "inferenceAccelerators": null,
