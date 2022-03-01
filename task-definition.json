@@ -52,9 +52,6 @@
   "placementConstraints": [],
   "memory": null,
   "taskRoleArn": null,
-  "compatibilities": [
-    "EC2"
-  ],
   "family": "discordbot",
   "pidMode": null,
   "networkMode": "bridge",
