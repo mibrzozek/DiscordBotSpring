@@ -27,7 +27,6 @@ public class UserListenerImp implements UserListener
                 messageCreateEvent.getChannel().sendMessage(e.getMessage());
                 return;
             }
-
             messageCreateEvent.getChannel().sendMessage("User has been created for " + messageCreateEvent.getMessageAuthor());
         }
     }

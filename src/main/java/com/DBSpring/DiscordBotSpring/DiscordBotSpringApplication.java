@@ -37,7 +37,7 @@ public class DiscordBotSpringApplication
 				.join();
 
 		api.addMessageCreateListener(pingListener);
-		api.addMessageCreateListener(pingListener);
+		//api.addMessageCreateListener(userListener);
 
 		return api;
 	}

@@ -105,7 +105,6 @@
 				<enabled>false</enabled>
 			</releases>
 		</repository>
-
 	</repositories>
 	<pluginRepositories>
 		<pluginRepository>
