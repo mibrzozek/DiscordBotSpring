@@ -1,5 +1,7 @@
 on:
-  push
+  push:
+    branches:
+        - develop
 
 name: Deploy to Amazon ECS
 
