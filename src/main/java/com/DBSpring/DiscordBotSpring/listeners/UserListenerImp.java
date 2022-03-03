@@ -6,6 +6,7 @@ import com.DBSpring.DiscordBotSpring.services.UserService;
 import org.javacord.api.event.message.MessageCreateEvent;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 @Component
 public class UserListenerImp implements UserListener

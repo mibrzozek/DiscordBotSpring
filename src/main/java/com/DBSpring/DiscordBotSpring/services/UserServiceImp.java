@@ -6,6 +6,8 @@ import com.DBSpring.DiscordBotSpring.repository.UserRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
@@ -27,5 +29,6 @@ public class UserServiceImp implements UserService
         User user = new User(id, name);
         user = userRepository.save(user);
         return user;
+
     }
 }
