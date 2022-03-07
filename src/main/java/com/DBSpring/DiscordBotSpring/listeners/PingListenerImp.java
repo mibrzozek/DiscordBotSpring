@@ -15,7 +15,7 @@ public class PingListenerImp implements PingListener
         }
         else if(messageCreateEvent.getMessageContent().equals(".ding"))
         {
-            messageCreateEvent.getChannel().sendMessage("This is database testing 1000000!");
+            messageCreateEvent.getChannel().sendMessage("This is database testing 2000000!");
         }
     }
 }
