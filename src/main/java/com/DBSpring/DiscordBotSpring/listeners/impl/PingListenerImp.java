@@ -1,5 +1,6 @@
-package com.DBSpring.DiscordBotSpring.listeners;
+package com.DBSpring.DiscordBotSpring.listeners.impl;
 
+import com.DBSpring.DiscordBotSpring.listeners.PingListener;
 import org.javacord.api.event.message.MessageCreateEvent;
 import org.springframework.stereotype.Component;
 

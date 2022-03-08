@@ -1,7 +1,8 @@
-package com.DBSpring.DiscordBotSpring.listeners;
+package com.DBSpring.DiscordBotSpring.listeners.impl;
 
 import com.DBSpring.DiscordBotSpring.entities.User;
 import com.DBSpring.DiscordBotSpring.exceptions.UserExistsException;
+import com.DBSpring.DiscordBotSpring.listeners.UserListener;
 import com.DBSpring.DiscordBotSpring.services.UserService;
 import org.javacord.api.event.message.MessageCreateEvent;
 import org.springframework.beans.factory.annotation.Autowired;
