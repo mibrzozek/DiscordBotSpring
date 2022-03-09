@@ -38,6 +38,9 @@ jobs:
         run: |
           # Build a docker container and push to ECR so it can be deployed to ECS
           docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG \
+          --build-arg SPRING_DATASOURCE_USERNAME_ARG=${{ secrets.SPRING_NAME }} \
+          --build-arg SPRING_DATASOURCE_PASSWORD_ARG=${{ secrets.SPRING_PASS }} \
+          --build-arg SPRING_DATASOURCE_URL_ARG=${{ secrets.SPRING_URL }} \
           --build-arg TOKEN_ARG=${{ secrets.TOKEN }} \
           --build-arg MYSQL_HOST_ARG=${{ secrets.MYSQL_HOST }} \
           --build-arg MYSQL_PORT_ARG=${{ secrets.MYSQL_PORT }} \
